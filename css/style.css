@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	background-color: #354F7B;
+	background-image: url(../images/free.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position:  right center;
+}
+.navbar-brand img{
+	width: 150px;
+}
+.blue{
+	background-color: #3FA9EF;
+	color: #fff;
+}
+header h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+header p{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 300;
+    margin: 35px 0;
+}
+header .btn{
+    display: inline-flex;
+    align-items: center;
+}
+p{
+	
+color: #708AA0;
+	
+margin-bottom: 0;
+	
+font-size: 12px;
+	
+line-height: 25px;
+	
+font-weight: 500;
+	
+margin-bottom: 30px;
+}
+header .btn i{
+	
+font-size: 30px;
+	
+color: #3fa9ef;
+}
+
+header .btn:hover{
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+	color: #fff;
+}
+ 
+.banner p{
+	color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+	color: rgb(63 169 239) !important;
+}
+
+.banner-contant{
+	padding: 130px 0;
+}
+
+
+
+.features{
+    padding: 100px 0;
+}
+.feature{
+    padding: 40px 15px;
+}
+.padding{
+	 padding: 0px 15px;
+}
+.feature > i{
+	color: #3fa9ef;
+    font-size: 35px;
+}
+.feature h1{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #15324C;
+    margin-bottom: 20px;
+}
+.feature h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 25px 0;
+    color: #15324C;
+}
+.feature p{
+    color: #708AA0;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.feature a{
+    color: #3fa9ef;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+}
+.feature a i{
+    font-size: 25px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+.feature a:hover i{
+    margin-left: 15px;
+}
+span{
+    color: #3fa9ef;
+}
+
+.shadow-sm {
+    box-shadow: 0 0.125rem 1.35rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.about{
+	background-color: #F1F5F7;
+	padding: 5px 0;
+	background-image: url(../images/free.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center left;
+}
+.about h1{
+	font-size: 27px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #15324C;
+    margin-bottom: 20px;
+}	
+.about p{
+	margin-bottom: 45px;
+}
+.qus{
+    padding: 100px 0;
+}
+.qus h1{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #15324C;
+    margin-top: 30px;
+}
+.qus ul{margin-top: 31px;}
+.qus ul li{
+    padding: 4px 0;
+}
+.qus ul i{
+    color: #15324ce0;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.qus ul li[aria-expanded="false"] i{
+transition: all 0.3s ease;
+}
+.qus ul li[aria-expanded="true"] i{
+transform: rotate(90deg);
+}
+
+.larg{
+    background-color: #F1F5F7;
+    padding: 5px 0;
+}
+.heading{
+}
+.heading h1{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #15324C;
+    margin-top: 30px;
+}
+.heading p{}
+
+.larg .feature{
+    background: #fff;
+    margin-bottom: 22px;
+}
+.solution{
+    background: #354f7b;
+    padding: 100px 0;
+}
+.solution h1{
+    color: #fff;
+}
+.solution p{
+    color: #fff;
+}
+.solution a{
+    margin: auto;
+    display: block;
+}
+
+.solution i{font-size: 30px;
+	color: #3fa9ef;}
+
+
+.member{
+    background-color: #F1F5F7;
+    padding: 5px 0;
+}
+.member h1{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 52px;
+    color: #15324C;
+    margin-bottom: 20px;
+}
+.member p{}
+.member ul{}
+.member ul li{
+    padding-right: 35px;
+}
+.member ul li h3{
+    font-size: 23px;
+    font-weight: 500;
+    margin: 14px 0;
+    color: #15324C;
+}
+.member ul li h4{}
+.member a{
+    border: 1px solid #3fa9ef;
+    color: #3fa9ef;
+    margin: 0 15px;
+}
+.member a i{color: #3fa9ef;}
+
+.member ul li:last-child{
+
+border-left: 1px solid #354f7b;
+
+margin-left: -22px;
+
+padding-left: 20px;
+}
